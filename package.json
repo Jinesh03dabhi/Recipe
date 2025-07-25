@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.3.x",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
