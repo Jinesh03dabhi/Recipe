@@ -118,7 +118,7 @@ export default function Home() {
                 <div className={`p-2 rounded-circle shadow 'bg-light'}`} style={{ transition: 'transform 0.3s ease' }}>
                  
                  <a href={`/${cuisine}`}> <img
-                    src={`/images/${cuisine.toLowerCase().replace(/\s/g, '-')}.jpg`}
+                    src={`/images/${cuisine}.jpg`}
                     alt={cuisine}
                     className="rounded-circle img-fluid border"
                     style={{ width: '70px', height: '70px', objectFit: 'cover' }}
@@ -156,7 +156,7 @@ export default function Home() {
                 }}
               >
                <a href={`/${card.name}`}> <img
-                  src={`/images/${card.name.toLowerCase()}.jpg`}
+                  src={`/images/${card.name}.jpg`}
                   className="card-img-top"
                   alt={card.name}
                   style={{ height: '180px', objectFit: 'cover' }}
